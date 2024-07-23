@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Landschaft Runner</title>
+    <style>
+        body {
+            background-color: black;
+            color: green;
+            font-family: Courier, monospace;
+        }
+        mytitle {
+            align-items: center;
+            width: 100vh;
+            margin: 10;
+        }
+        game {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .content {
+            padding: 10px;
+            text-align: center;
+        }
+        .bottom-left-button {
+                position: fixed;
+                bottom: 10px;
+                left: 10px;
+                padding: 10px 20px;
+                background-color: green;
+                color: white;
+                border: none;
+                cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <pre class="mytitle">
+██████╗  █████╗ ██╗     ███████╗███████╗     █████╗ ███████╗ ██████╗██╗██╗         ██╗██╗   ██╗███╗   ███╗██████╗ ███████╗██████╗ 
+██╔══██╗██╔══██╗██║     ██╔════╝██╔════╝    ██╔══██╗██╔════╝██╔════╝██║██║         ██║██║   ██║████╗ ████║██╔══██╗██╔════╝██╔══██╗
+██████╔╝███████║██║     █████╗  ███████╗    ███████║███████╗██║     ██║██║         ██║██║   ██║██╔████╔██║██████╔╝█████╗  ██████╔╝
+██╔══██╗██╔══██║██║     ██╔══╝  ╚════██║    ██╔══██║╚════██║██║     ██║██║    ██   ██║██║   ██║██║╚██╔╝██║██╔═══╝ ██╔══╝  ██╔══██╗
+██║  ██║██║  ██║███████╗██║     ███████║    ██║  ██║███████║╚██████╗██║██║    ╚█████╔╝╚██████╔╝██║ ╚═╝ ██║██║     ███████╗██║  ██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝     ╚══════╝    ╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝╚═╝     ╚════╝  ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝
+
+    </pre>
+    <div class="game">
+        <script src="game.js"></script>
+    </div>
+    <a href='https://viellieber.eu/ASCII/highscores.php' class='bottom-left-button'>HIGHSCORES</a>
+</body>
+
+</html>
